@@ -1,19 +1,34 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+
 import App from './App.jsx'
 import Hello from './hello.jsx'
 import Hello1 from './Hello1.jsx'
 import Grocesory from './Grocesory.jsx'
 import Person from './Person.jsx'
-
+import Menu from './Menu.jsx'
+import Product from './Product.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+    <StrictMode>
 
-    <Grocesory />
-    <Person name="hari" age={20} />
-    <Person name = "pallav" age={22} />
+        <Grocesory />
 
-  </StrictMode>,
+        <Person name="hari" age={20} />
+
+        <Person name="vamsi" age={22} />
+
+        <Person colour="red" />
+
+        <Menu />
+
+        <Product
+            name="Laptop"
+            price={10000}
+            brand="Dell"
+            category="Electronics"
+        />
+
+    </StrictMode>,
 )
