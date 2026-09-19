@@ -9,26 +9,12 @@ import Grocesory from './Grocesory.jsx'
 import Person from './Person.jsx'
 import Menu from './Menu.jsx'
 import Product from './Product.jsx'
+import StateCount from './StateCount.jsx'
+
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-
-        <Grocesory />
-
-        <Person name="hari" age={20} />
-
-        <Person name="vamsi" age={22} />
-
-        <Person colour="red" />
-
-        <Menu />
-
-        <Product
-            name="Laptop"
-            price={10000}
-            brand="Dell"
-            category="Electronics"
-        />
-
+        <App></App>
+        <StateCount></StateCount>
     </StrictMode>,
 )
