@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.todo-container {
+    width: 60%;
+    margin: 30px auto;
+}
+
+h1 {
+    background-color: lightblue;
+    padding: 15px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 5px;
+}
+
+li {
+    margin: 10px;
+    text-align: left;
+}
